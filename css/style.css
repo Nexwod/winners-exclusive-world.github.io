@@ -54,21 +54,32 @@ text-align: right;}
 
     background-color: #fce5f6c4;
 }
+
 .banner-title button{
     font-weight: 700;
     background:linear-gradient(#B865E4,#FF5450) ;
     color:whitesmoke;
     padding:0.3rem 2rem;
     transition: 0.3s;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.banner-title button a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+.banner-title button a:hover{
+    text-decoration: none;
+    color:rgb(19, 3, 26);
 }
 .banner-title button:hover{
     font-weight: 700;
     background:whitesmoke;
-    color:rgb(7, 0, 0);
+    color:rgb(7, 0, 6);
     padding:0.3rem 2rem;
    border: solid #26003a;
-   border-radius: 2px;
-   box-shadow: 0px 5px 10px;
+   border-radius: 1px;
+   box-shadow: 0px 2px 2px;
 }
 
 
@@ -79,17 +90,12 @@ text-align: right;}
     letter-spacing: 5px;
     line-height: 40px;
 }
-.about-title{
-}
-.about-image{
-    
-}
+
 
 body{
     box-sizing: border-box;
     margin:  0;
     padding: 0;
-    background-color: red;
 }
 .about-title p{
     font-size:18px;
@@ -97,20 +103,33 @@ body{
     line-height: 25px;
 }
 
-.about-title button{
+.about-title button {
     font-weight: 700;
     background:linear-gradient(#B865E4,#FF5450) ;
     color:whitesmoke;
     padding:0.3rem 2rem;
     transition: 0.3s;
+    text-decoration: none;
 }
-.title-but button:hover{
+
+   
+   
+
+.about-title button a{
+    text-decoration: none;
+     color:whitesmoke;
+}
+.about-title button a:hover{
+    text-decoration: none;
+     color:rgb(21, 2, 29);
+}
+.about-title button:hover{
     font-weight: 700;
     background:whitesmoke;
-    color:rgb(7, 0, 0);
+    color:rgb(7, 0, 6);
     padding:0.3rem 2rem;
    border: solid #26003a;
-   border-radius: 2px;
+   border-radius: 1px;
    box-shadow: 0px 2px 2px;
 }
 /* '''''''''''''' END ABOUT US'''''''''''''''''''''*/
@@ -130,40 +149,7 @@ body{
    filter: opacity(0.6);
     margin: 1.7rem;
 }
-/*.call-center span{
-    margin-top: 3rem;
-    font-size: large;
-    font-weight: 700;
-}
-.call-area span{
-    margin-left: 3rem;
-    font-size: 25px;
-    font-weight: 700;
-}
-.call-center h2{
-    font-size:100px;
-    font-weight: 900;
-    color: #26003a;
-}
 
-.call-center  .call-area{
-padding: 10px 0px 10px 30px;
-background-color:#fce5f6c4;}
-
-.years-area{
-border-bottom: #26003a;
-border-style: groove;}
-.call-center{
-border-bottom: #26003a;
-border-style:dashed;}
-
-.call-center  .call-area p{
-justify-content: center;
-background-color:#fce5f6c4;}
-
-.call-center .years-area{
-padding: 20px;
-background-color:#fce5f6c4;} */
 .years{
     margin-bottom:3rem ;
     font-size: large;
@@ -270,14 +256,14 @@ box-shadow: 0px 7px 20px;
     background: transparent;
     border: none;
 }
-.project-name{
 
-}
 
 .project-img:hover img{
     filter: brightness(1.1) drop-shadow(0px 2px 20px);
 }
-
+.project-img img{
+    border-radius: 0.5rem;
+}
 /*--'''============''''end PROJECT area''''============'''--*/
 
 /*--'''============''''start CLIENT area''''============'''--*/
@@ -312,11 +298,12 @@ box-shadow: 0px 7px 20px;
     
 }
 .get-update-title{
-    color: aliceblue;
+    color: rgb(211, 224, 248);
     font-weight: 700;
+  
 }
 .get-update-body{
-    color: aliceblue;
+    color: rgb(223, 237, 248);
     font-weight: 600;
 }
 .input-email input{
@@ -420,22 +407,7 @@ box-shadow: 0px 7px 20px;
 
     background-color: #fce5f6c4;
 }
-.banner-title button{
-    font-weight: 700;
-    background:linear-gradient(#B865E4,#FF5450) ;
-    color:whitesmoke;
-    padding:0.3rem 2rem;
-    transition: 0.3s;
-}
-.banner-title button:hover{
-    font-weight: 700;
-    background:whitesmoke;
-    color:rgb(7, 0, 0);
-    padding:0.3rem 2rem;
-   border: solid #26003a;
-   border-radius: 2px;
-   box-shadow: 0px 5px 10px;
-}
+
 
 
 /* '''''''''''''' end banner'''''''''''''''''''''*/
@@ -445,33 +417,14 @@ box-shadow: 0px 7px 20px;
     letter-spacing: 5px;
     line-height: 40px;
 }
-.about-title{
-}
-.about-image{
-    
-}
+
 .about-title p{
     font-size:18px;
     font-weight:400;
     line-height: 25px;
 }
 
-.about-title button{
-    font-weight: 700;
-    background:linear-gradient(#B865E4,#FF5450) ;
-    color:whitesmoke;
-    padding:0.3rem 2rem;
-    transition: 0.3s;
-}
-.title-but button:hover{
-    font-weight: 700;
-    background:whitesmoke;
-    color:rgb(7, 0, 0);
-    padding:0.3rem 2rem;
-   border: solid #26003a;
-   border-radius: 2px;
-   box-shadow: 0px 2px 2px;
-}
+
 /* '''''''''''''' END ABOUT US'''''''''''''''''''''*/
 
 
@@ -489,40 +442,7 @@ box-shadow: 0px 7px 20px;
    filter: opacity(0.6);
     margin: 1.7rem;
 }
-/*.call-center span{
-    margin-top: 3rem;
-    font-size: large;
-    font-weight: 700;
-}
-.call-area span{
-    margin-left: 3rem;
-    font-size: 25px;
-    font-weight: 700;
-}
-.call-center h2{
-    font-size:100px;
-    font-weight: 900;
-    color: #26003a;
-}
 
-.call-center  .call-area{
-padding: 10px 0px 10px 30px;
-background-color:#fce5f6c4;}
-
-.years-area{
-border-bottom: #26003a;
-border-style: groove;}
-.call-center{
-border-bottom: #26003a;
-border-style:dashed;}
-
-.call-center  .call-area p{
-justify-content: center;
-background-color:#fce5f6c4;}
-
-.call-center .years-area{
-padding: 20px;
-background-color:#fce5f6c4;} */
 .years{
     margin-bottom:3rem ;
     font-size: large;
@@ -622,7 +542,7 @@ box-shadow: 0px 7px 20px;
     padding: 2rem 0rem ;
 }
 .button-project-area button + button{
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 .button-project-area button{
     text-transform: uppercase;
@@ -630,13 +550,11 @@ box-shadow: 0px 7px 20px;
     background: transparent;
     border: none;
 }
-.project-name{
-
-}
 
 .project-img:hover img{
     filter: brightness(1.1) drop-shadow(0px 2px 20px);
 }
+
 
 /*--'''============''''end PROJECT area''''============'''--*/
 
@@ -654,7 +572,7 @@ box-shadow: 0px 7px 20px;
 .client-img{
     align-content: center;
     padding: 1rem;
-    
+   
 }
 .owl-carousel .owl-dots .owl-dot.active span{
     background-color: #d59ff1;
@@ -672,11 +590,10 @@ box-shadow: 0px 7px 20px;
     
 }
 .get-update-title{
-    color: aliceblue;
     font-weight: 700;
 }
 .get-update-body{
-    color: aliceblue;
+
     font-weight: 600;
 }
 .input-email input{
@@ -684,7 +601,7 @@ box-shadow: 0px 7px 20px;
     width: 20rem;
     border-color:whitesmoke;
     color: aliceblue;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.5rem;
 }
 .input-email input::placeholder{
    color: whitesmoke;
